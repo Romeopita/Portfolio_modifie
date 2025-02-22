@@ -41,7 +41,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 600px;
-    position: relative;
+/*     position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
