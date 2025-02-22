@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Baloo paaji', 'Poppins';
-    src: url(../font/BalooPaaji-Regular.ttf);
-    src: url(../font/Poppins-Light.ttf);
+    src: url('../font/BalooPaaji-Regular.ttf');
+    src: url('../font/Poppins-Light.ttf');
 }
 
 *{
@@ -14,6 +14,7 @@
 
 body{
     background-color: #e7e9ec;
+    width: 100%;
 }
 
 p, label, input, textarea{
@@ -23,6 +24,7 @@ p, label, input, textarea{
 
 section{
     padding: 70px 0;
+    width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6{
