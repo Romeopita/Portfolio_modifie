@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remixicon.css">
+    <title>Document</title>
+</head>
+<body onscroll="defil(), on()">
+
+  <nav class="navbar navbar-expand-lg fixed-top nav">
+    <div class="container">
+      <a class="navbar-brand text-light" href="#">Roméo_Dev</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Roméo_Dev</h5>
+          <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projet">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header id="header">
+    <div class="header-content container">
+      <h1 class="header-title" data-aos="fade-right" data-aos-duration="3000">
+          <span class="d-block haut">Salut!</span>
+          <span class="d-block bas">Moi c'est Roméo</span>
+      </h1>
+      <p class="header-subtitle" data-aos="fade-left" data-aos-duration="3000">FRONTEND WEB DESIGNER</p>
+      <button class="btn btn-primary" data-aos="fade-up" data-aos-duration="3000">Visit My Works</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="about bg-light" id="about">
+      <div class="container">
+        <div class="row about-caption">
+          <div class="col-12 col-md-6 about-img" data-aos="fade-right" data-aos-duration="3000">
+            <img src="image/moi.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-md-6 about-text" data-aos="fade-left" data-aos-duration="3000">
+            <p class="about-subtitle mt-4 mt-lg-0">Qui suis-je?</p>
+            <h1 class="about-title mb-3">A propos de moi</h1>
+            <p class="description">Passionné par la création d'interfaces intuitives et fonctionnelles, j'ai une expérience pratique dans le développement de projets en utilisant des technologies comme HTML, CSS, JavaScript, PHP et Laravel. Je suis motivé à créer de nouvelles interfaces visuels et à résoudre des problèmes complexes</p>
+            <button class="btn btn-primary">Télécharger CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service text-center" id="service">
+      <div class="container">
+        <p class="about-subtitle">Ce que je fait?</p>
+        <h1 class="about-title mb-5">Service</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-center">
+          <div class="col">
+            <div class="card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="ri-vip-crown-2-line"></i>
+                <h4 class="title">CONCEPTION UI/UX DESIGN</h4>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="ri-computer-line"></i>
+                <h4 class="title">CONCEPTION DE SITE WEB</h4>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="fade-up" data-aos-duration="2500">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="ri-smartphone-line"></i>
+                <h4 class="title">CONCEPTION D'APPLICATIONS</h4>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <i class="ri-numbers-line"></i>
+                <h4 class="title">REFERENCEMENT SEO</h4>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projet" id="projet">
+      <div class="container">
+        <p class="about-subtitle text-center">Ce que j'ai fait?</p>
+        <h1 class="about-title mb-6 text-center">Projets</h1>
+        <div class="card mb-3" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="row g-0 about-caption">
+            <div class="col-md-4">
+              <img src="image/composition.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="">Site Vitrine du CABINET REHOBOTH</h5>
+                <p class="card-text">Voici un projet de site vitrine d'un cabinet comptable, qui offre ses services en comptabilité, audit, managment et autres</p>
+                <a href="" class="btn btn-primary">Visiter le site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="row g-0 about-caption">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="">Site vitrine de la FERME ALLAFIA</h5>
+                <p class="card-text">Voici un projet de site vitrine de la FERME ALLAFIA, qui offre ses services en restauration, formations et accompagnements, ventes et autres</p>
+                <a href="" class="btn btn-primary">Visiter le site</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="image/composition.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="call-action ">
+      <div class="img">
+        <div class="container text-center">
+          <h1 class="about-title mb-6 text-light">Envie de travailler avec moi, alors n'hésitez pas</h1>
+          <a href="" class="btn btn-primary">Contact</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="skills bg-light" id="skills">
+      <div class="container">
+        <p class="about-subtitle text-center">Ce que je peux faire?</p>
+        <h1 class="about-title mb-6 text-center mb-4">Compétences</h1>
+        <div class="progres">
+          <div class="percent row">
+            <div class="boite col-6">
+                <h3>HTML, CSS & JS</h3>
+                <div class="ligne html"></div>
+            </div>
+            <div class="boite  col-6">
+                <h3>Bootstrap</h3>
+                <div class="ligne bootstrap"></div>
+            </div>
+            <div class="boite col-6">
+                <h3>Laravel</h3>
+                <div class="ligne laravel"></div>
+            </div>
+            <div class="boite col-6">
+                <h3>Réact</h3>
+                <div class="ligne react"></div>
+            </div>
+            <div class="boite col-6">
+                <h3>Photoshop & Illustrator</h3>
+                <div class="ligne photoshop"></div>
+            </div>
+            <div class="boite col-6">
+                <h3>Adobe Xd & Figma</h3>
+                <div class="ligne figma"></div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <p class="about-subtitle text-center">Me contacter?</p>
+        <h1 class="about-title mb-6 text-center mb-4">Contact</h1>
+        <div class="form">
+          <form action="" class="row">
+            <div class="col-6">
+              <label for="">Nom</label><br>
+              <input type="email" id="" name="" value="">
+            </div>
+            <div  class="col-6">
+              <label for="">Email</label><br>
+              <input type="email" id="" name="" value="">
+            </div>
+            <div class="col mt-3">
+              <label for="">Message</label><br>
+              <textarea name="" id="" rows="5"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>&copy; Copyright</p>
+        </div>
+        <div class="col">
+          <p>Designed by Roméo_Dev</p>
+        </div>
+        <div class="col">
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const add = document.querySelector('.nav')
+      const li = document.querySelectorAll('.nav-link')
+
+      function on(){
+        if(scrollY > 0){
+          li.forEach(element => {
+            element.style.color = "white"
+          });
+      } else{
+        li.forEach(element => {
+            element.style.color = "black"
+          });
+      }
+    }
+
+      function defil(){
+          if (scrollY > 0) {
+              add.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+              add.style.transition = ".4s"
+          } else{
+              add.style.backgroundColor = "transparent"
+              add.style.transition = ".4s"
+          }
+          
+      }
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
